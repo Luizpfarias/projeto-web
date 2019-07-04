@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: repeat(2, 1fr);
+    
+    /*grid-template-rows: 50px 80px;*/
+    grid-auto-rows: minmax(200px, 30%);
+
+    grid-gap: 1em;
+}
+
+.grid-container > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.grid-container > div:nth-child(odd){
+    background: #ddd;
+}
