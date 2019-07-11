@@ -1,0 +1,35 @@
+
+/* configuração de img do hero header */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/office-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px; /*Ajustando espaçamento*/
+  color: #fff;
+  font-size: 240%; 
+  text-transform: uppercase;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-weight: 300; 
+}
+
+/*provavelmente não entra */
+.hero-text-box {
+  position: absolute;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+i{
+  padding: 5% 0 0 5%;
+}
+a:hover{
+  color:#021752;
+}
